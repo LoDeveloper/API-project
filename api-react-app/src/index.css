@@ -1,0 +1,47 @@
+@import url('link href="https://fonts.googleapis.com/css2?family=Galindo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Numans&family=Slackey&display=swap');  
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #921c07;
+  font-family: "Numans", serif;
+  font-weight: 400;
+  height: 100vh;
+}
+
+
+.input {
+  text-align: center;
+  height: 50px;
+  border-radius: 10px;
+  border: solid 1px #792107;
+  font-size: 18px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 6px 10px rgba(3, 3, 6, 0.30);
+    }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+
+.title {
+  text-align: center;
+  color: #eee;
+  font-size: 40px;
+  font-family: "Numans", serif;
+  margin: 20px;
+  font-weight: 900;
+}
